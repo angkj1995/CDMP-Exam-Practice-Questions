@@ -2461,7 +2461,544 @@ quiz_data_2 = [
         ],
         "correct": 1,
         "explanation": None
-    }
+    },
+    {
+        "question": "Plant equipment is an example of",
+        "options": [
+            "Inverted Data",
+            "Transaction Data",
+            "None of these",
+            "Reference Data",
+            "Master Data"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "Reference Data",
+        "options": [
+            "When incorrect has a greater impact that errors in master and transaction data",
+            "Is always supplied by outside vendors",
+            "Has limited value",
+            "Has obvious definitions",
+            "Is used to categorize and classify other data"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "What is a common motivation for Reference and Master Data Management?",
+        "options": [
+            "The need to improve Data Quality and data integrity across multiple data sources",
+            "Business Intelligence and data warehousing",
+            "The need to build a data dictionary of all the core data entities and attributes",
+            "Regulatory acts such as BCBS239, GDPR, and SOX",
+            "The need to consolidate all data into one physical database"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "Master and reference data are forms of",
+        "options": [
+            "Data Modeling",
+            "Data Quality",
+            "Data Security",
+            "Data Integration",
+            "Data Architecture"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "A common driver for initiating a Reference Data Management program is",
+        "options": [
+            "It fosters the creative use of data",
+            "It will improve Data Quality and facilitate analysis across the organization",
+            "It can be a one-time-only project",
+            "Managing codes and descriptions requires little effort and low cost",
+            "It will consolidate the process of securing third party code sets"
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "Which of the following is NOT a way of storing Master Data?",
+        "options": [
+            "Repository",
+            "Transaction Hub",
+            "Registry",
+            "Virtual",
+            "Consolidated"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "Why would an organization choose to purchase Reference Data?",
+        "options": [
+            "To set up data compliance and governance processes",
+            "To summarize basic information about their enterprise data",
+            "To enhance data quality and to facilitate analysis across the organization",
+            "To document transactional data systems",
+            "To define how data will be captured and tracked"
+        ],
+        "correct": 2,
+        "explanation": None
+    },
+    {
+        "question": "When assessing tool to implement Master Data Management solutions, functionality must include",
+        "options": [
+            "Advanced analytics capabilities",
+            "Document and Content management",
+            "Backup and recovery utilities",
+            "Sophisticated integration capability",
+            "Auto-normalization features"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "Emergency contact phone number should be found in which master data management program?",
+        "options": [
+            "Asset",
+            "Product",
+            "Service",
+            "Location",
+            "Employee"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "Data required across business process, areas and systems is called",
+        "options": [
+            "Reference and Master",
+            "A data mart",
+            "Data static",
+            "Data Event",
+            "Important Data"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "Critical to the incremental development of the data warehouse is",
+        "options": [
+            "A strong release management process",
+            "A strong incident management process",
+            "The assurance to include velocity, variety, and veracity measurements.",
+            "A strong capacity management process",
+            "An agile development team"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "A data integration approach that updates a data warehouse with small changes from operational systems is called",
+        "options": [
+            "ELT",
+            "ETL",
+            "CDC",
+            "EII",
+            "SOA"
+        ],
+        "correct": 2,
+        "explanation": None
+    },
+    {
+        "question": "Which of these is a common OLAP operation?",
+        "options": [
+            "Roll up",
+            "Drill up and drill down",
+            "Pivot",
+            "Slice and dice",
+            "All of the above."
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "The main part of a data vault that houses and integrates data from various source systems is referred to as",
+        "options": [
+            "Metrics mart",
+            "Raw data vault.",
+            "Business data vault",
+            "Information mart",
+            "Persistent staging area"
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "Which users in an organization are more likely to be the recipients of business performance management reporting?",
+        "options": [
+            "BI team members",
+            "Data scientists",
+            "Operations",
+            "Executives",
+            "IT team"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "In its broadest context, the data warehouse includes",
+        "options": [
+            "Data stores and extracts that can be transformed into star schemas.",
+            "All the data in the enterprise",
+            "Either an Inmon or Kimball approach",
+            "Any data stores or extracts used to support the delivery for BI purposes",
+            "An integrated data store, ETL logic, and extensive data cleansing routines"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "Dimension tables",
+        "options": [
+            "Are the same as Facts",
+            "Have many columns but few rows",
+            "Have few columns but many rows",
+            "Contain measures.",
+            "Do not contain hierarchies"
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "What technique will identify the system of record for the data?",
+        "options": [
+            "Data profiling",
+            "Collection of business rules",
+            "Definition of Data Integration and Lifecycle requirements",
+            "data discovery",
+            "Analysis of lineage"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "According to Henry Morris of IDC, Analytical Applications provide business with a pre-built solution to optimize a functional area or industry vertical",
+        "options": [
+            "FALSE",
+            "TRUE"
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "We would expect to consult the Metadata Library when",
+        "options": [
+            "Selecting a Data Storage device",
+            "Implementing a Data Quality tool",
+            "Formulating a Governance policy",
+            "Accessing the internet.",
+            "Assessing the impact of change"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "To which of the following initiatives was the establishment of an industry Metadata Standard essential?",
+        "options": [
+            "Internet Protocols",
+            "EDI",
+            "BASEL II/SOX.",
+            "Proprietary XML",
+            "JSON"
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "We do not expect to consult the Metadata repository when",
+        "options": [
+            "Undertaking a data quality assessment",
+            "None of these.",
+            "Investigating a data issue",
+            "Updating the operating system that the Master Data management toolset is running on",
+            "Assessing the impact of change"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "The Metadata repository enables us to establish multiple perspectives of data. These are:",
+        "options": [
+            "Business and Technical Perspective",
+            "3rd normal form and un normalised",
+            "Dimensional and non dimensional perspective.",
+            "Structured and Unstructured",
+            "Internal and External"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "What would you not expect to find in the Metadata repository?",
+        "options": [
+            "Data Lineage diagrams and models",
+            "Data storage devices",
+            "Data Dictionary.",
+            "Data Requirements",
+            "Data Models"
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "A business perspective product in the Metadata repository is",
+        "options": [
+            "Data Glossary",
+            "ETL flow",
+            "Systems Inventory",
+            "Data Dictionary",
+            "Physical Data Model"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "The library of information about our data (our metadata) is built so that",
+        "options": [
+            "All of these.",
+            "We can have a shared formalized view of requirements (e.g. what data quality we need)",
+            "We can better understand it",
+            "We can be consistent in our use of terminology",
+            "We can better manage it"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "Which of these statements are true about Metadata?",
+        "options": [
+            "The repository is always a hybrid architecture.",
+            "A Metadata repository and a Glossary are synonyms",
+            "The repository is always a centralized architecture",
+            "The repository is always a decentralized architecture",
+            "Data models are components of a Metadata repository"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "A data lineage tool enables a user to",
+        "options": [
+            "Enables rapid development of dashboard reporting",
+            "Track the data from source system to a target database; understanding its transformations.",
+            "Visualize how the data gets to the data lake",
+            "Track the historical changes to a data value",
+            "Line up the data to support sophisticated glossary management"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "A 'Data Swamp' is a data lake that has become",
+        "options": [
+            "overly catalogued, holding information and data",
+            "suitable for frogs, toads and salamanders",
+            "modelled, managed and muddy",
+            "a data asset that uses machine learning.",
+            "messy, unclean and inconsistent"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "An umbrella term for any classification or controlled vocabulary is",
+        "options": [
+            "Data model",
+            "Taxonomy",
+            "Metadata",
+            "Dictionary",
+            "English."
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "Metadata repository processes will not include",
+        "options": [
+            "Managing change to data products (e.g. data dictionary or business data glossary) entries. For example: new data terms to be defined, new data requirements, adding new database tables, or including new systems into the technical landscape",
+            "Assessing impact where a change to existing data product entries are proposed e.g. the impact of change on related data on other systems",
+            "Selecting Data Management library software, search, and storage technologies",
+            "Controlling versions of a data product that will be required to manage the required single published master copy in conjunction with the variants potentially established as work in progress"
+        ],
+        "correct": 2,
+        "explanation": None
+    },
+    {
+        "question": "Top-down and Bottom-up data analysis and profiling are best done in concert because",
+        "options": [
+            "It gives something for the architects to do while the profiles get on with the work",
+            "It gets everyone involved",
+            "It balances business relevance and the actual state of the data",
+            "It allows the profilers to show the business the true state of the data",
+            "Data Quality tools are more productive when they are effectively configured"
+        ],
+        "correct": 2,
+        "explanation": None
+    },
+    {
+        "question": "Which of these is NOT an expected role of a Data Quality Oversight Board?",
+        "options": [
+            "Data Profiling and Analysis",
+            "Setting Data Quality Improvement priorities",
+            "Establishing communications and feedback mechanisms",
+            "Development and maintaining Data Quality",
+            "Producing certification and compliance policies"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "According to the DMBOK, which of these is NOT a valid dimension of Data Quality?",
+        "options": [
+            "Currency",
+            "Timeliness",
+            "Reasonableness",
+            "Relevance",
+            "Completeness"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "What is the purpose of a data lineage tool?",
+        "options": [
+            "List of potential data integration opportunities",
+            "Tracking Historical changes to a dataset",
+            "Formal Data Quality Assessment of a dataset",
+            "Description of a dataset's phase within the data lifecycle",
+            "Collection of all the metadata related to a dataset"
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "Which of the following is NOT usually a feature of Data Quality improvement tools?",
+        "options": [
+            "Transformation",
+            "Standardization",
+            "Parsing",
+            "Data profiling",
+            "Data Modelling"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "A Data Quality Service Level Agreement (SLA) would normally include which of these",
+        "options": [
+            "A breakdown of the costs of Data Quality improvement",
+            "Roles and responsibilities for Data Quality",
+            "A business case for data improvement",
+            "An enterprise data model",
+            "Detailed technical specifications for data transfer"
+        ],
+        "correct": 1,
+        "explanation": None
+    },
+    {
+        "question": "Data quality measurements can be taken at three levels of granularity. They are:",
+        "options": [
+            "Fine data, coarse data, and rough data",
+            "Person data, location data, and product data",
+            "Departmental data, regional data, and enterprise data",
+            "Data element value, data instance or record, and data set",
+            "Historical data, current data, and future dated data"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "When the DMBOK calls Data Quality Management a program, not a project, it means",
+        "options": [
+            "Data Quality has both project and maintenance work along with communications and training",
+            "Data Quality is more tightly scoped and planned than ordinary projects",
+            "Data Quality practices can stop at the end of the project",
+            "Data Quality managers can be paid more that project managers",
+            "Data quality management is really expensive"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "Whose responsibility should it be to identify and report occurrences of defects in information and data?",
+        "options": [
+            "Any employee",
+            "The information quality team",
+            "Customers",
+            "The IT department",
+            "Regulatory compliance officers"
+        ],
+        "correct": 0,
+        "explanation": None
+    },
+    {
+        "question": "What is manual directed Data Quality correction?",
+        "options": [
+            "Using a Data Quality improvement manual to guide data cleanse and correction activities",
+            "The automation of all data cleanse and correction routines",
+            "The use of automated cleanse and correction tools with results manually checked before committing outputs",
+            "The use of spreadsheets to manually inspect and correct data",
+            "Teams of data creators supervised by data subject matter experts"
+        ],
+        "correct": 2,
+        "explanation": None
+    },
+    {
+        "question": "Which one of these is a key process in defining Data Quality business rules?",
+        "options": [
+            "Matching data from different data sources",
+            "Producing Data Quality reports and dashboards",
+            "Producing Data Management policies",
+            "De-duplicating data records",
+            "Separating data that does not meet business needs from data that does"
+        ],
+        "correct": 4,
+        "explanation": None
+    },
+    {
+        "question": "Big data is often defined by three characteristics. They are:",
+        "options": [
+            "Size, Speed, and Sensitivity",
+            "Complexity, Compliance and Completeness",
+            "Expansive, Engaged and Enormous.",
+            "Volume, Variety, and Velocity",
+            "Direction, Depth and Details"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "Big data management requires",
+        "options": [
+            "a certification in data science",
+            "no discipline at all",
+            "big ideas with big budgets.",
+            "more discipline than relational data management",
+            "less discipline than relational data management"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    {
+        "question": "A 'Data Lake' is an environment where a vast amount of data can be",
+        "options": [
+            "ingested, screened, obfuscated and purged",
+            "digested, processed, deleted and visualised",
+            "updated, obfuscated, nullified and cleansed",
+            "ingested, shared, assessed and analysed",
+            "purged, sorted, split and scanned"
+        ],
+        "correct": 3,
+        "explanation": None
+    },
+    
 
 ]
 
